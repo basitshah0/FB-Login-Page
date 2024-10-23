@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 237, 253);
+}
+
+.login {
+    height: 300px;
+    width: 340px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 1400px;
+    margin-top: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);        */
+    /* display: inline-block; */
+}
+
+.form input {
+    width: 300px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(211, 211, 211);
+    /* opacity: 50%; */
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+
+.button button {
+    height: 47px;
+    width: 300px;
+    border: 1px solid grey;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    background-color: rgb(1, 103, 255);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 15px;
+}
+
+.hr {
+    width: 280px;
+    /* height: 0px; */
+    margin: auto;
+    opacity: 50%;
+
+}
+
+.pass a {
+    /* justify-content: center; */
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    padding-left: 120px;
+    color: rgb(1, 103, 255);
+    /* display: block;
+    margin: auto; */
+}
+
+.but button {
+    width: 160px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+    background-color: rgb(62, 170, 62);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.button button:hover {
+    background-color: rgb(2, 80, 197);
+    cursor: pointer;
+}
+
+.but button:hover {
+    background-color: rgb(54, 141, 54);
+    cursor: pointer;
+}
+
+.form1 {
+    margin-left: 3px;
+    padding-top: 10px;
+}
+.span{
+    font-size: 150px;
+    float: left;
+    /* border: 2px solid black; */
+    display: inline;
+    color:rgb(1, 103, 255) ;
+    margin-left: 200px;
+}
+.span1{
+    font-size: 50px;
+    display: block;
+    color: black;
+}
+.form input ::placeholder{
+    color: rgb(153, 153, 153);
+}
